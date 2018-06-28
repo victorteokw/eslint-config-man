@@ -1,7 +1,11 @@
 {
   "name": "eslint-config-man",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint config for man",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +22,8 @@
   "homepage": "https://github.com/zhangkaiyulw/eslint-config-man#readme",
   "devDependencies": {
     "eslint": "^5.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 5"
   }
 }
