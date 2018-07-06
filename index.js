@@ -62,7 +62,8 @@ module.exports = {
     "arrow-body-style": ["warn", "as-needed", {"requireReturnForObjectLiteral": false}],
     "arrow-spacing": ["warn"],
     "max-len": ["warn", { "code": 80 }],
-    "no-undef": "error"
+    "no-undef": "error",
+    "quotes": ["warn", "single", { "avoidEscape": true }]
   },
   "parserOptions": {
     "ecmaVersion": 8,
